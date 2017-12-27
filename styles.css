@@ -1,0 +1,25 @@
+#gallery {
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+}
+
+.pictures {
+    position: relative;
+    height: 210px;
+    width: 400px;
+}
+#gallery .pictures img {
+    width: 10%;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: 1s;
+}
+#gallery .pictures img.showed {
+    opacity: 100;
+    width:100%;
+    
+}
+
+
